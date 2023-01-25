@@ -40,6 +40,12 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 767px) {
+  .description {
+    width: 400px;
+    height: 175px;
+  }
+}
 .description__intro {
   text-align: center;
 }
@@ -48,15 +54,30 @@ main {
   font-size: 7.4rem;
   font-weight: 800;
 }
+@media (max-width: 767px) {
+  .description__intro h1 {
+    font-size: 3.5rem;
+  }
+}
 .description__paragraph {
   width: 712px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .description__paragraph {
+    width: 100%;
+  }
 }
 .description__paragraph p {
   font-family: "Play", sans-serif;
   font-size: 2.9rem;
   font-weight: 100;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .description__paragraph p {
+    font-size: 2rem;
+  }
 }
 
 .card {
@@ -71,8 +92,19 @@ main {
   display: flex;
   border-radius: 32px;
 }
+@media (max-width: 767px) {
+  .card {
+    position: static;
+    width: 380px;
+  }
+}
 .card div {
   width: 380px;
+}
+@media (max-width: 767px) {
+  .card div {
+    width: 246px;
+  }
 }
 .card div img {
   position: relative;
@@ -82,10 +114,26 @@ main {
   height: 268px;
   border-radius: 23px;
 }
+@media (max-width: 767px) {
+  .card div img {
+    position: relative;
+    top: -55px;
+    left: 67px;
+    width: 250px;
+    height: 189px;
+  }
+}
 .card__content {
   position: relative;
   right: 210px;
   top: 40px;
+}
+@media (max-width: 767px) {
+  .card__content {
+    height: 155px;
+    right: 177px;
+    top: 150px;
+  }
 }
 .card__content .title--card h3 {
   font-family: "Orbitron", sans-serif;
@@ -93,9 +141,20 @@ main {
   font-size: 3.5rem;
   font-weight: 900;
 }
+@media (max-width: 767px) {
+  .card__content .title--card h3 {
+    font-size: 3rem;
+  }
+}
 .card__content .data--card {
   color: #030611;
   margin-top: 50px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .card__content .data--card {
+    margin-top: 20px;
+  }
 }
 .card__content .data--card__items {
   margin: 30px 0;
@@ -104,6 +163,11 @@ main {
   display: flex;
   gap: 20px;
   font-size: 1.6rem;
+}
+@media (max-width: 767px) {
+  .card__content .data--card__items {
+    margin: 10px 0;
+  }
 }
 .card__content .data--card__items p {
   font-family: "Orbitron", sans-serif;

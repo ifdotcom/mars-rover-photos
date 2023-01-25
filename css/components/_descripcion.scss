@@ -5,22 +5,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include media(xs) {
+    width: 400px;
+    height: 175px;
+  }
   &__intro {
     text-align: center;
     h1 {
       font-family: $Fuente1;
       font-size: 7.4rem;
       font-weight: 800;
+      @include media(xs) {
+        font-size: 3.5rem;
+      }
     }
   }
   &__paragraph {
     width: 712px;
     text-align: center;
+    @include media(xs) {
+      width: 100%;
+    }
     p {
       font-family: $Fuente2;
       font-size: 2.9rem;
       font-weight: 100;
       text-align: center;
+      @include media(xs) {
+        font-size: 2rem;
+      }
     }
   }
 }
