@@ -1,0 +1,36 @@
+$font-reset: 62.5%;
+$Fuente1: "Orbitron", sans-serif;
+$Fuente2: "Play", sans-serif;
+$color-claro: #f0f0f0;
+$color-oscuro: #030611;
+$breakpoint-xs: 360px;
+$breakpoint-lg: 1360px;
+
+
+@mixin media($media) {
+  @if $media == xs {
+    @media (max-width: $breakpoint-sm) { @content; }
+  }
+  @else if $media == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-reset;
+  color: $color-claro;
+}
+
+main {
+  background-image: url(../images/background-destination-desktop.jpg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

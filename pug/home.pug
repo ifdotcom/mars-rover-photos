@@ -4,17 +4,18 @@ block contenido
 		section.description
 			.description__intro
 				h1=title
+			.description__paragraph
 				p=subtitle  
 		.card
-			.card__image
-				img(src="", alt="img-mars", srcset="")
+			div 
+				img(src="../images/mars.jpg", alt="img-mars", class="card__image")
 			.card__content
 				.title--card
-					h3 Mast Camera
+					h3 Mast Camera 
 				.data--card
 					+item("Martian sol:", "492")
 					+item("Rover:", "Curiosity")
 					+item("Camera:", "CHEMCAM")
-		input(type="button", value="Show Image" class="button")
+		button(class="button")="Show Image"
 			
 

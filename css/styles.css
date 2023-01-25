@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  color: #f0f0f0;
+}
+
+main {
+  background-image: url(../images/background-destination-desktop.jpg);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description {
+  width: 1193px;
+  height: 238px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.description__intro {
+  text-align: center;
+}
+.description__intro h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 7.4rem;
+  font-weight: 800;
+}
+.description__paragraph {
+  width: 712px;
+  text-align: center;
+}
+.description__paragraph p {
+  font-family: "Play", sans-serif;
+  font-size: 2.9rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  left: 134px;
+  bottom: 36px;
+  background-color: #f0f0f0;
+  width: 486px;
+  height: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 32px;
+}
+.card div {
+  width: 380px;
+}
+.card div img {
+  position: relative;
+  top: 34px;
+  right: 260px;
+  width: 360px;
+  height: 268px;
+  border-radius: 23px;
+}
+.card__content {
+  position: relative;
+  right: 210px;
+  top: 40px;
+}
+.card__content .title--card h3 {
+  font-family: "Orbitron", sans-serif;
+  color: #030611;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.card__content .data--card {
+  color: #030611;
+  margin-top: 50px;
+}
+.card__content .data--card__items {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  font-size: 1.6rem;
+}
+.card__content .data--card__items p {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+.card__content .data--card__items span {
+  font-family: "Play", sans-serif;
+}
+
+.button {
+  width: 150px;
+  height: 45px;
+  border: transparent;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  font-family: "Play", sans-serif;
+  color: #030611;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 41px;
+}
