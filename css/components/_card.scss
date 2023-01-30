@@ -10,6 +10,7 @@
   @include media(xs) {
     position: static;
     width: 380px;
+    // margin-top:80px;
   }
   div {
     width: 380px;
@@ -25,10 +26,10 @@
       border-radius: 23px;
       @include media(xs) {
         position: relative;
-        top: -55px;
-        left: 67px;
-        width: 250px;
-        height: 189px;
+        top: -75px;
+left: 58px;
+width: 265px;
+height: 189px;
       }
     }
   }

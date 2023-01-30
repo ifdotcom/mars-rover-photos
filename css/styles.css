@@ -12,6 +12,7 @@ html {
 
 main {
   background-image: url(../images/background-destination-desktop.jpg);
+  background-size: cover;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,11 +25,19 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 767px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 
 .description {
   width: 1193px;
   height: 238px;
-  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,9 +126,9 @@ main {
 @media (max-width: 767px) {
   .card div img {
     position: relative;
-    top: -55px;
-    left: 67px;
-    width: 250px;
+    top: -75px;
+    left: 58px;
+    width: 265px;
     height: 189px;
   }
 }
