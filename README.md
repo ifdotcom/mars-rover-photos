@@ -5,7 +5,7 @@ Mars Rover Photos - NASA API
 ## Table of content
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links])(#links)
+  - [Links](#links)
 - [My process](#my-process)
 - [Built with](#built-with)
 -[Author](#author)
@@ -15,7 +15,7 @@ Mars Rover Photos - NASA API
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ifdotcom.github.io/mars-rover-photos/html/home.html)
+- Live Site URL: [Mars Rover Photos](https://ifdotcom.github.io/mars-rover-photos/html/home.html)
 
 ## My process
 
