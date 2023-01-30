@@ -51,7 +51,7 @@ main {
 }
 @media (max-width: 767px) {
   .description {
-    width: 400px;
+    width: 350px;
     height: 175px;
   }
 }
@@ -104,7 +104,8 @@ main {
 @media (max-width: 767px) {
   .card {
     position: static;
-    width: 380px;
+    width: 328px;
+    margin-top: 50px;
   }
 }
 .card div {
@@ -127,7 +128,7 @@ main {
   .card div img {
     position: relative;
     top: -75px;
-    left: 58px;
+    left: 34px;
     width: 265px;
     height: 189px;
   }
@@ -140,7 +141,7 @@ main {
 @media (max-width: 767px) {
   .card__content {
     height: 155px;
-    right: 177px;
+    right: 195px;
     top: 150px;
   }
 }
