@@ -6,10 +6,12 @@ Mars Rover Photos - NASA API
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links])(#links)
-- [My process](#)
+- [My process](#my-process)
+- [Built with](#built-with)
+-[Author](#author)
 ### Screenshot
 
-![](./imges/Mars-design.jpg)
+![](./images/Mars-design.jpg)
 
 ### Links
 
