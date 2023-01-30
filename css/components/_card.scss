@@ -9,7 +9,7 @@
   border-radius: 32px;
   @include media(xs) {
     position: static;
-   width: 328px;
+   width: 300px;
     margin-top:50px;
   }
   div {
@@ -27,7 +27,7 @@
       @include media(xs) {
         position: relative;
         top: -75px;
-left: 34px;
+left: 19px;
 width: 265px;
 height: 189px;
       }
@@ -39,7 +39,7 @@ height: 189px;
     top: 40px;
     @include media(xs) {
       height: 155px;
-     right: 195px;
+     right: 204px;
       top: 150px;
     }
     .title--card {

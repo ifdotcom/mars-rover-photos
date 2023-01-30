@@ -13,7 +13,7 @@ html {
 main {
   background-image: url(../images/background-destination-desktop.jpg);
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +104,7 @@ main {
 @media (max-width: 767px) {
   .card {
     position: static;
-    width: 328px;
+    width: 300px;
     margin-top: 50px;
   }
 }
@@ -128,7 +128,7 @@ main {
   .card div img {
     position: relative;
     top: -75px;
-    left: 34px;
+    left: 19px;
     width: 265px;
     height: 189px;
   }
@@ -141,7 +141,7 @@ main {
 @media (max-width: 767px) {
   .card__content {
     height: 155px;
-    right: 195px;
+    right: 204px;
     top: 150px;
   }
 }

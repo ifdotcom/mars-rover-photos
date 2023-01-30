@@ -38,7 +38,7 @@ html {
 main {
   background-image: url(../images/background-destination-desktop.jpg);
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
