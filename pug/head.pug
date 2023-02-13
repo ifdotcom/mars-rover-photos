@@ -1,7 +1,7 @@
-mixin item(name, value)
+mixin item(classNameP,classNameSpan, name, value)
 	.data--card__items
-		p=name
-		span=value
+		p(class=classNameP)=name
+		span(class=classNameSpan)=value
 -var title = "Mars Rover Photos"
 -var subtitle = "Image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars"
 doctype html

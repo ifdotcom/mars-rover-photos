@@ -11,11 +11,11 @@ block contenido
 				img(src="../images/mars.jpg", alt="img-mars", class="card__image")
 			.card__content
 				.title--card
-					h3 Mast Camera 
+					h3 Mast Camera
 				.data--card
-					+item("Martian sol:", "492")
-					+item("Rover:", "Curiosity")
-					+item("Camera:", "CHEMCAM")
-		button(class="button")="Show Image"
+					+item("martianSol","martianSolValue", "Martian sol:", "492")
+					+item("roverName","roverNameValue", "Rover:", "Curiosity")
+					+item("cameraName","cameraNameValue", "Camera:", "CHEMCAM")
+		button(class="button" id="btn")="Show Image"
 		script(src="../main.js") 
 
