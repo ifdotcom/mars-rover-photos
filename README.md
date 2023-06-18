@@ -1,6 +1,5 @@
 # mars-rover-photos
-Mars Rover Photos - NASA API
-# Weaer UI
+"Mars Rover Photos" is an exciting and educational project that utilizes HTML, Pug, CSS, Sass, and JavaScript to access the NASA API, retrieve random images from the Curiosity, Opportunity, and Spirit rovers, and present them on an attractive and interactive website. Each visit to the project offers a unique experience by displaying different images on each load, providing a stunning glimpse into space exploration.
 
 ## Table of content
 - [Overview](#overview)
